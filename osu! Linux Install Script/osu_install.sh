@@ -15,7 +15,7 @@ wget -O "installer.exe" "https://m1.ppy.sh/r/osu!install.exe"
 wget -O "osu_logo.png" "https://upload.wikimedia.org/wikipedia/commons/d/d3/Osu%21Logo_%282015%29.png"
 
 cd $HOME/osu_installer_temp
-wget -O "discord-rpc.dll" "m1.ppy.sh/r/discord-rpc.dll/f_250e4d35ed51ac293527865ca2080c2b"
+wget -O "discord-rpc.dll" "https://m1.ppy.sh/r/discord-rpc.dll/f_250e4d35ed51ac293527865ca2080c2b"
 python3 template_replace.py $USER
 chmod +x osu\!.desktop
 mv osu\!.desktop $HOME/osu\!.desktop
