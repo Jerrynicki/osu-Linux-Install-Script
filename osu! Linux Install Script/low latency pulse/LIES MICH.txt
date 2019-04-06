@@ -1,0 +1,5 @@
+Dieses Skript modifiziert die Pulseaudio-Konfiguration so, dass Pulseaudio weniger Audiodaten buffert, was zu einer niedrigeren Audiolatenz führt. (Wenn dein Pulseaudio auf Standardeinstellungen ist, wird dieses Skript die Audiolatenz um ca. 96 ms reduzieren.)
+
+Um das Skript zu starten, führe einfach "sh pulse_low_latency.sh" in der Konsole in diesem Ordner aus.
+
+Das Skript erstellt automatisch eine Backup-Datei von der alten Config. Sollte etwas schieflaufen, kann die alte Config mit "sudo cp daemon.conf.backup /etc/pulse/daemon.conf" wiederhergestellt werden.

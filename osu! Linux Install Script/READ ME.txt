@@ -1,0 +1,12 @@
+Please check if you have Wine, Winetricks, Python3 and Wget installed. This install script will not work without them.
+
+If you already have something installed under $HOME/osu_wine or $HOME/osu_dir, please back it up elsewhere, since the script will delete those directories.
+
+To start with the installation, type "sh osu_install.sh" in your terminal while in this directory.
+
+The installer will automatically create an osu!.desktop file in your home directory. You can use it to start osu! after it has been installed.
+
+The installer will also create a symlink in $HOME/osu_dir, which you can use to easily access your osu! installation.
+
+
+For a rhythm game like osu!, it's important to have low audio latency. You can find more information in the "low latency pulse" directory.

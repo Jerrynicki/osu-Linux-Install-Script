@@ -1,0 +1,5 @@
+This script will modify your Pulseaudio configuration, so Pulseaudio will buffer less audio, which leads to a reduced audio latency. (On its standard configuration, Pulseaudio will buffer 100 ms auf audio, this script modifies it so it will buffer just 4 ms.)
+
+To start the script, simply run "sh pulse_low_latency.sh" in your terminal while in this directory.
+
+The script will automatically create a backup of the unmodified config. If something goes wrong, the old config can be restored by using the command "sudo cp daemon.conf.backup /etc/pulse/daemon.conf"

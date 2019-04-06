@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=osu!
+Comment=osu! Rhythm Game
+Type=Application
+Exec=env WINEPREFIX=/home/NAME/osu_wine WINEARCH=win32 wine /home/NAME/osu_dir/osu\!.exe
+Icon=/home/NAME/osu_wine/osu_logo.png
+StartupWMClass=osu!.exe
+Categories=Games
+
+
+Name=osu!
