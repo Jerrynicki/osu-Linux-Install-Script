@@ -1,4 +1,4 @@
-#/bin/sh
+#!/bin/sh
 
 rm -rf $HOME/osu_wine
 rm -rf $HOME/osu_dir
